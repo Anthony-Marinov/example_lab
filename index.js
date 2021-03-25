@@ -1,4 +1,4 @@
-exports.helloWorld = (req, res) => {
+exports.tony_lab = (req, res) => {
     if (isNaN(req.body.compute)) {
         res.statusCode = 400;
         res.send("Bad Request");
